@@ -60,10 +60,7 @@ public class LoginActivity extends BaseActivity<LoginPresenter,ILogin.VP> {
         return new LoginPresenter();
     }
 
-    @Override
-    public <ERROR> void responseError(ERROR error,Throwable throwable) {
-        Toast.makeText(this,""+error,Toast.LENGTH_SHORT).show();
-    }
+
 
     @Override
     public void onClick(View v) {

@@ -23,17 +23,4 @@ public class LoginPresenter extends BasePresenter<LoginModel,LoginActivity,ILogi
             }
         };
     }
-
-//    @Override
-//    public void requestLogin(String name, String pwd) throws Exception {
-//        //校验请求的信息，进行逻辑处理
-//        mModel.requestLogin(name, pwd);
-//
-//    }
-//
-//    @Override
-//    public void responseResult(boolean loginStatusResult) {
-//        //解析数据
-//        mView.responseResult(loginStatusResult);
-//    }
 }

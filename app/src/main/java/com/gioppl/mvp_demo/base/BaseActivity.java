@@ -25,8 +25,7 @@ public abstract class BaseActivity<P extends BasePresenter,CONTRACT> extends App
     public abstract int getContextViewId();
     public abstract void destroy();
     public abstract P getPresenterInstance();
-    //处理异常
-    public abstract <ERROR extends Object>void responseError(ERROR error,Throwable throwable);
+
     @Override
     public void onClick(View v) {
 
